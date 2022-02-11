@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Tienda Gamer</title>
+  </head>
+  <body>
+    <!---NAV--->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="media/Tienda.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            </div>
+        </nav>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="armatupc.html">Armá tu PC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img class="redes" src="media/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img class="redes" src="media/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!---Productos--->
+<h1 class="titulo-p">PRODUCTOS</h1>
+<main id="productos">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 d-flex justify-content-md-end justify-content-center p-1">
+              <div class="card micard">
+                  <ul class="list-group list-group-flush">
+                    <a href="#procesadorryzen_id"><li class="list-group-item">PROCESADORES RYZEN</li></a>
+                    <a href="#procesadorintel_id"><li class="list-group-item">PROCESADORES INTEL</li></a>
+                    <a href="#placadevideo_id"><li class="list-group-item">PLACAS DE VIDEO</li></a>
+                    <a href="#ram_id"><li class="list-group-item">MEMORIAS RAM</li></a>
+                    <a href="#fuente_id"><li class="list-group-item">FUENTES</li></a>
+                    <a href="#mother_id"><li class="list-group-item">MOTHERS</li></a>
+                    <a href="#ssd_id"><li class="list-group-item">SSD</li></a>
+                    <a href="#teclado_id"><li class="list-group-item">TECLADOS</li></a>
+                    <a href="#monitor_id"><li class="list-group-item">MONITORES</li></a>
+                    <a href="#mouse_id"><li class="list-group-item">MOUSE</li></a>
+                    <a href="#auris_id"><li class="list-group-item">AURICULARES</li></a>
+                    <a href="#pad_id"><li class="list-group-item">PAD</li></a>
+                    <a href="#discorigido_id"><li class="list-group-item">DISCO RIGIDO</li></a>
+                    <a href="#cooler_id"><li class="list-group-item">COOLERS</li></a>
+                  </ul>
+              </div>
+          </div>
+          <div class="col col-md-8 p-1">
+              <img src="media/banner.jpg" alt="banner" class="banner mb-2">
+              <div class="card mb-3" id="procesadorryzen_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="amd.html"><img src="media/procesador.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="amd.html"><h5 class="card-title">Micro AMD Ryzen 5 3600 - 6 Núcleos / 12 Threads 4.2Ghz AM4</h5></a>
+                        <p class="precio">$45.500</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="procesadorintel_id">
+                <div class="row no-gutters">
+                  <div class="col-md-4 col-lg-3 p-3 text-center">
+                    <a href="intel.html"><img src="media/intel.png" class="card-img"></a>
+                  </div>
+                  <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                    <div class="card-body">
+                      <a href="intel.html"><h5 class="card-title">Procesador Core i9 9900K 9NA GEN</h5></a>
+                      <p class="precio">$150.000</p>
+                      <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              <div class="card mb-3" id="mother_id">
+                <div class="row no-gutters">
+                  <div class="col-md-4 col-lg-3 p-3 text-center">
+                    <a href="mother.html"><img src="media/mother.png" class="card-img"></a>
+                  </div>
+                  <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                    <div class="card-body">
+                      <a href="mother.html"><h5 class="card-title">Mother Gigabyte B460M AORUS PRO Socket 1200 - Compatible 10º Gen</h5></a>
+                      <p class="precio">$18.100</p>
+                      <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="gabinete_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="gabinete.html"><img src="media/gabinete.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="gabinete.html"><h5 class="card-title">GABINETE GIGABYTE AC300G AORUS ATX BLACK</h5></a>
+                        <p class="precio">$17.850</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="fuente_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="fuente.html"><img src="media/fuente.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="fuente.html"><h5 class="card-title">FUENTE AEROCOOL CYLON 600W RGB 80+ BRONZE</h5></a>
+                        <p class="precio">$6.900</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="placadevideo_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="placadevideo.html"><img src="media/placa.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="placadevideo.html"><h5 class="card-title">PLACA DE VÍDEO GEFORCE RTX 3080 10GB AORUS MASTER</h5></a>
+                        <p class="precio">$450.000</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="ram_id">
+                <div class="row no-gutters">
+                  <div class="col-md-4 col-lg-3 p-3 text-center">
+                    <a href="ram.html"><img src="media/ram.png" class="card-img"></a>
+                  </div>
+                  <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                    <div class="card-body">
+                      <a href="ram.html"><h5 class="card-title">Memoria RAM DDR4 KINGSTON HyperX Fury RGB 8GB 3400Mhz</h5></a>
+                      <p class="precio">$6.500</p>
+                      <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="ssd_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="ssd.html"><img src="media/ssd.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="ssd.html"><h5 class="card-title">Disco Solido Ssd 480 Gb Sata Crucial BX500</h5></a>
+                        <p class="precio">$7.600</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="teclado_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="teclado.html"><img src="media/teclado.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="teclado.html"><h5 class="card-title">Teclado Redragon KUMARA K552 RGB Mecánico Switch Blue</h5></a>
+                        <p class="precio">$7.800</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="mouse_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="mouse.html"><img src="media/mouse.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="mouse.html"><h5 class="card-title">Mouse Gamer Inalambrico Logitech G502 Rgb</h5></a>
+                        <p class="precio">$10.500</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="monitor_id">
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-lg-3 p-3 text-center">
+                      <a href="monitor.html"><img src="media/monitor.png" class="card-img"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                      <div class="card-body">
+                        <a href="monitor.html"><h5 class="card-title">BenQ ZOWIE XL2740 27" HDMIx2 240Hz FreeSync G-SYNC PC e-Sports LCD Monitor</h5></a>
+                        <p class="precio">$120.000</p>
+                        <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card mb-3" id="auris_id">
+                <div class="row no-gutters">
+                  <div class="col-md-4 col-lg-3 p-3 text-center">
+                    <a href="auris.html"><img src="media/auris.png" class="card-img"></a>
+                  </div>
+                  <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                    <div class="card-body">
+                      <a href="auris.html"><h5 class="card-title">Auriculares Gamer Logitech G Series G635 Gaming Lightsync 7.1 Black</h5></a>
+                      <p class="precio">$20.500</p>
+                      <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card mb-3" id="pad_id">
+              <div class="row no-gutters">
+                <div class="col-md-4 col-lg-3 p-3 text-center">
+                  <a href="pad.html"><img src="media/pad.png" class="card-img"></a>
+                </div>
+                <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                  <div class="card-body">
+                    <a href="pad.html"><h5 class="card-title">Mouse Pad Redragon P003 Suzaku de caucho y tela xl 300mm x 800mm x 3mm negro/rojo</h5></a>
+                    <p class="precio">$2.100</p>
+                    <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="card mb-3" id="disco_id">
+            <div class="row no-gutters">
+              <div class="col-md-4 col-lg-3 p-3 text-center">
+                <a href="discorigido.html"><img src="media/discorigido.png" class="card-img"></a>
+              </div>
+              <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                <div class="card-body">
+                  <a href="discorigido.html"><h5 class="card-title">Disco Rigido Western Digital 1 Tb Caviar Blue SATA</h5></a>
+                  <p class="precio">$5.100</p>
+                  <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card mb-3" id="cooler_id">
+          <div class="row no-gutters">
+            <div class="col-md-4 col-lg-3 p-3 text-center">
+              <a href="cooler.html"><img src="media/cooler.png" class="card-img"></a>
+            </div>
+            <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+              <div class="card-body">
+                <a href="cooler.html"><h5 class="card-title">Corsair Hydro Series - Enfriador líquido para CPU con iluminación RGB avanzada</h5></a>
+                <p class="precio">$19.500</p>
+                <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+      </div>
+          </div>
+      </div>
+  </div>
+</main>
+
+<!---Marcas--->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="media/marcas-1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="media/marcas-2.jpg" class="d-block w-100">
+    </div>
+  </div>
+</div>
+
+<!---Footer--->
+<footer class="fuente">
+    <div class="main-content">
+      <div class="left box">
+        <h2>Nosotros</h2>
+        <div class="content">
+          <p>Esta Empresa se dedica a la venta de Componentes de Computadoras via Online en este sitio Web de Tienda Gamer.</p>
+        </div>
+      </div>
+
+      <div class="center box">
+        <h2>Ubicación</h2>
+        <div class="content">
+          <div class="place">
+            <span class="text"> <img src="media/casa.png"> Localidad: Buenos, Argentina</span>
+          </div>
+          <div class="phone">
+            <span class="text"> <img src="media/celu.png"> Telefono: +57 11 2345-6789</span>
+          </div>
+          <div class="email">
+            <span class="text"> <img src="media/correo.png"> Email: tiendagamer@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right box">
+        <h2>Contacto</h2>
+        <div class="content">
+          <form action="#">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="btn">
+              <button type="button" class="btn btn-danger">Enviar Mensaje</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer">
+        <div class="footer">
+             <div class="copyright">
+                 © 2021 Todos los Derechos Reservados</a>
+             </div>
+             <div class="information">
+                 <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+             </div>
+         </div>
+     </div>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+.collapse navbar-collapse{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+.logo{
+	width: 145px;
+}
+.redes{
+	width: 25px;
+	margin: 7px 5px;
+}
+.fuente{
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
+.main-content{
+    bottom: 0px;
+    width: 100%;
+    height: 340px;
+    background-color: black;
+    display: flex;
+}
+.box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text img{
+    width: 36px;
+    height: 36px;
+}
+.content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.content:before{
+      position: absolute;
+      content: '';
+      top: -10px;
+      height: 2px;
+      width: 100%;
+      background: #1a1a1a;
+}
+.content:after{
+      position: absolute;
+      content: '';
+      height: 2px;
+      width: 15%;
+      background: #f12020;
+      top: -10px;
+}
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+.copyright{
+    color: #C7C7C7;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+.tituloamd-intel{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.col-4{
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e0eded;
+    border-radius: 6px;
+}
+.titulo-p{
+    text-align: center;
+}
+.rojo{
+    color: red;
+}
+#productos{
+    border-bottom: #000 1px solid;
+    height: 100%;
+}
+.banner{
+    border-radius: 5px;
+    width: 100%;
+}
+.micard{
+    width: 18rem !important;
+    height: 590px;
+}
+.micard ul li:hover{
+    background-color: #eaeaea;
+}
+.micard ul a{
+    text-decoration: none;
+    color: #000;
+}
+.card.mb-3 .card-img{
+    width: 150px;
+    margin-top: 5px;
+}
+.card.mb-3:hover{
+    -webkit-box-shadow: 1px 1px 10px 1px #c9c9c9;
+    box-shadow: 1px 1px 10px 1px #c9c9c9;
+}
+.titulo_product{
+  text-align: start;
+}
+.precio-especial{
+    font-size: 15px;
+    color: #42a6e4;
+    text-align: start;
+}
+.card.mb-3 .botoncin2{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+    box-shadow: 1px 1px 3px 1px #c9c9c9;
+}
+.card.mb-3 .botoncin2:hover{
+    background-color: #0077f9;
+    color: #fff;
+}
+.card.mb-3 p{
+    color: #42a6e4;
+} 
+.card.mb-3 a{
+    text-decoration: none;
+    color: #000;
+}
+.fondo{
+    background-image: url(../media/fondo.png);
+}
+.breadcrumb-item a{
+    text-decoration: none;
+}
+.precio{
+    font-size: 30px;
+}
+.separadores .titulo_product{
+    font-size: 2em;
+}
+.separadores .precio{
+    font-size: 40px;
+    font-weight: 600;
+    color: #42a6e4;
+    height: 30px;
+    text-align: start;
+    font-family: 'Hind', sans-serif;
+}
+.separadores .datos{
+    font-size: 0.9em;
+    color: #25c525;
+    text-align: start;
+    height: 10px;
+}
+.separadores .datos span{
+    color: #000;
+}
+.especificaciones p{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.especificaciones_items p{
+    line-height: 0.8em;
+    font-weight: 700;
+}
+  
+.especificaciones_items p span{
+    color: #686868;
+}
+.botoncin2{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+    box-shadow: 1px 1px 3px 1px #c9c9c9;
+}
+.botoncin2:hover{
+    background-color: #42a6e4;
+    color: #fff;
+}
+
+@media all and (max-width: 600px){
+.separadores .titulo_product{
+    font-size: 1.5em;
+}
+.row{
+    --bs-gutter-x: none;
+}
+.col-sm-4{
+    width: 70.333333%;
+}
+.main-content{
+    height: 600px;
+}
+.main-content{
+    flex-wrap: wrap;
+}
+.container-fluid{
+    flex-wrap: wrap;
+}
+.botoncin2{
+    width: 150px;
+}
+.precio{
+    text-align: center;
+    font-size: 30px;
+}
+.card-title{
+    text-align: center;
+}
+}

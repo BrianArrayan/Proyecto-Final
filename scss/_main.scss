@@ -1,0 +1,237 @@
+.container-fluid{
+    @media all and (max-width: $point-md){
+        flex-wrap: wrap;
+    }
+}
+.collapse navbar-collapse{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+}
+.logo{
+    width: 145px;
+}
+.redes{
+    width: 25px;
+    margin: 7px 5px;
+}
+.fuente{
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
+.main-content{
+    bottom: 0px;
+    width: 100%;
+    height: 340px;
+    background-color: black;
+    display: flex;
+    @media all and (max-width: 600px){
+        flex-wrap: wrap;
+        height: 850px;
+    }
+    .content{
+        margin: 20px 0 0 0;
+        position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        top: -10px;
+        height: 2px;
+        width: 100%;
+        background: black;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 15%;
+        background: #f12020;
+        top: -10px;
+    }
+}
+}
+.box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text img{
+    width: 36px;
+    height: 36px;
+}
+.container-footer{
+    width: 100%;
+    background: #101010;
+    .footer{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .copyright{
+        color: #c7c7c7;
+    }
+    .copyright a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .information a{
+        text-decoration: none;
+        color: #c7c7c7;
+    }
+}
+.tituloamd-intel{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.col-4{
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e0eded;
+    border-radius: 6px;
+}
+.rojo{
+    color: #f12020;
+    border: 1px solid #f12020;
+}
+.col-sm-4{
+    width: 33.33333333%;
+    @media all and (max-width: $point-md){
+        width: 70.333333%;
+    }
+}
+.fondo{
+    background-image: url(../media/fondo.png);
+}
+.titulo-p{
+    text-align: center;
+}
+#productos{
+    border-bottom: #000 1px solid;
+    height: 100%;
+}
+.banner{
+    border-radius: 5px;
+    width: 100%;
+}
+.titulo_product{
+    text-align: start;
+}
+.precio{
+    font-size: 30px;
+    @media all and (max-width: $point-md){
+        text-align: center;
+        font-size: 30px;
+    }
+}
+.precio-especial{
+    font-size: 15px;
+    color: #42a6e4;
+    text-align: start;
+}
+.micard{
+    width: 18rem !important;
+    height: 590px;
+}
+.micard ul li:hover{
+    background-color: #eaeaea;
+}
+.micard ul a{
+    @include color-negro;
+    text-decoration: none;
+}
+.botoncin2{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: $mainColor;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 1px $bgColor;
+    box-shadow: 1px 1px 3px 1px $bgColor;
+    @media all and (max-width: 600px){
+        width: 150px;
+    }
+}
+.botoncin2:hover{
+    background-color: #42a6e4;
+    color: $mainColor;
+}
+.separadores .titulo_product{
+    font-size: 2em;
+    @media all and (max-width: $point-md){
+        font-size: 1.5em;
+    }
+}
+.separadores .precio{
+    font-size: 40px;
+    font-weight: 600;
+    color: #42a6e4;
+    height: 30px;
+    text-align: start;
+    font-family: 'Hind', sans-serif;
+}
+.separadores .datos{
+    font-size: 0.9em;
+    color: #25c525;
+    text-align: start;
+    height: 10px;
+}
+.separadores .datos span{
+    @include color-negro;
+}
+.especificaciones p{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.especificaciones_items p{
+    line-height: 0.8em;
+    font-weight: 700;
+}
+.especificaciones_items p span{
+    color: #686868;
+}
+.card.mb-3 .botoncin2{
+    outline: none;
+    border: none;
+    background-color: $mainColor;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 1px $bgColor;
+    box-shadow: 1px 1px 3px 1px $bgColor;
+}
+.card.mb-3 .botoncin2:hover{
+    background-color: #0077f9;
+    color: $mainColor;
+}
+.card.mb-3 .card-img{
+    width: 150px;
+    margin-top: 5px;
+}
+.card.mb-3 p{
+    color: #42a6e4;
+}
+.card.mb-3 a{
+    @include color-negro;
+    text-decoration: none;
+}
+.card.mb-3:hover{
+    -webkit-box-shadow: 1px 1px 10px 1px $bgColor;
+    box-shadow: 1px 1px 10px 1px $bgColor;
+}
+.row{
+    @media all and (max-width: $point-md){
+        --bs-gutter-x: none;
+    }
+}
+.card-title{
+    @media all and (max-width: $point-md){
+        text-align: center;
+    }
+}
